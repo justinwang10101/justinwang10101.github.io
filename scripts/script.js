@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     toggle.style.borderRadius = "5px";
     toggle.style.cursor = "pointer";
     toggle.style.boxShadow = "2px 2px 10px rgba(0, 0, 0, 0.2)";
-    document.body.appendChild(toggle);
+
     toggle.style.fontFamily = "'Courier New', Courier, monospace";
     toggle.style.fontSize = "12px";
-    document.body.appendChild(toggle);
+    //document.body.appendChild(toggle);
 
     // Define the available theme files
     const themes = ["styles/justin_style.css"];
